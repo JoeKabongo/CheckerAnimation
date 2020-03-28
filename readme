@@ -1,0 +1,14 @@
+Project animation of a checker game
+
+
+Contains 3 src folder: backend, uiComponents, main
+
+Backend: the back-end is the foundation of the app and controls how the UI components is modified.
+It crucial operations to the game/animation. Make sure each piece take turns. Check if a move is valid, if the game is over, etc.
+
+
+uiComponent: is contains the ui components essential for the game. Namely the BOARD and the pieces and methods that update the board 
+visually.
+
+main: this is where our application is ran. Our main frame is here and this is where I use both component of the backend and uiComponent 
+to make the animation run smoothly
